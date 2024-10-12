@@ -1,0 +1,3 @@
+[submodule "bit-algo-vis-tool"]
+	path = bit-algo-vis-tool
+	url = https://github.com/aghbit/Algorytmy-Geometryczne.git
