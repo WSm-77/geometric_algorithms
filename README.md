@@ -2,6 +2,14 @@
 
 To repozytorium zawiera implementację wybranych algorytmów geometrycznych.
 
+## Klonowanie repozytorium
+
+Aby skolonować to repozytorium wraz z modułem narzędzia wizualizującego musimy skorzystać z komendy:
+
+```bash
+git clone --recurse-submodules https://github.com/WSm-77/geometric_algorithms.git
+```
+
 ## Narzędzie bit-algo-vis-tool
 
 Podczas ćwiczeń korzystaliśmy z narzędzia dostarczonego przez koło naukowe **_Bit_**.
@@ -33,7 +41,7 @@ W przypadku zwykłych skryptów pythonowych (plików _.py_) w VSCode możemy ust
 ctrl+shift+p > Python: Select Interpreter
 ```
 
-Miejsce, w którym stworzymy nowy plik nie ma znaczenia - konfiguracja środowiska sprawia, że folder _bit-algo-vis-tool_ postrzeany jest jako folder główny projektu, więc jeżeli przykładowo chcemy skorzystać z klasy **_Visualizer_** wystarczy ją zaimportować:
+Miejsce, w którym stworzymy nowy plik nie ma znaczenia - konfiguracja środowiska sprawia, że folder _bit-algo-vis-tool_ postrzegany jest jako folder główny projektu, więc jeżeli przykładowo chcemy skorzystać z klasy **_Visualizer_** wystarczy ją zaimportować:
 
 ```python
 from bitalg.visualizer.main import Visualizer
